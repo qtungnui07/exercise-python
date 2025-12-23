@@ -104,19 +104,19 @@ n=int(input())
 #         else:
 #             print("  ",end=" ")
 #     print()
-for i in range(1,n+1):
-    print("  "*(n-i),end="")
-    if i==n:
-        for j in range(1,n+1):
-            print(j,end=" ")
-        for j in range(n-1,0,-1):
-            print(j,end=" ")
-    else:
-        print(1,end=" ")
-        if i>1:
-            print("  "*(2*i-3),end="") 
-            print("1",end=" ")
-    print()
+# for i in range(1,n+1):
+#     print("  "*(n-i),end="")
+#     if i==n:
+#         for j in range(1,n+1):
+#             print(j,end=" ")
+#         for j in range(n-1,0,-1):
+#             print(j,end=" ")
+#     else:
+#         print(1,end=" ")
+#         if i>1:
+#             print("  "*(2*i-3),end="") 
+#             print("1",end=" ")
+#     print()
     
 
 
@@ -125,9 +125,26 @@ for i in range(1,n+1):
 
 
 
+# for i in range(1,n+1):
+#     print(" " * (n-i), end="")  
+#     if i==1:
+#         print("*")
+#     elif i==n:
+#         print("* "*n)
+#     else:
+#         print("*"+" "*(2*i-3)+"*")
 
 
 
+for i in range(n):
+    for s in range(n - i - 1):
+        print("  ", end="")
+    for j in range(i+1):
+        if j==0 or j==i or i==n-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
 
 
 

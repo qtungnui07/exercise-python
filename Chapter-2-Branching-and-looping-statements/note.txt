@@ -1,0 +1,50 @@
+Write a program that prints all even numbers from 2 to 20.
+print so chan
+
+
+for i in range(2, 21, 2):
+
+start - 2
+stop - 21
+step - 2
+
+hoac co the xai cach khac la for i xong i % 2==0 r print ra 
+
+
+n=int(input())
+count=0
+while n>0:
+    n=n//10
+    count+=1
+print(count)
+
+factorial
+giai thua
+
+multiplication table
+bang cuu chuong
+
+
+prime number
+so nguyen to
+
+https://en.wikipedia.org/wiki/Prime_number
+
+https://happymath.edu.vn/bai-viet/toan-hoc-thuat/prime-numbers-so-nguyen-to
+
+
+
+{\displaystyle F_{n}=F_{n-1}+F_{n-2}}
+
+
+https://www.geeksforgeeks.org/python/python-program-to-print-the-fibonacci-sequence/
+
+
+Mathematically, the Fibonacci sequence can be represented as:
+
+F(n) = F(n-1) + F(n-2)
+
+Where:
+F(0) = 0
+F(1) = 1
+F(n) for n > 1 is the sum of the two preceding numbers.

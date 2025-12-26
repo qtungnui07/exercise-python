@@ -1,0 +1,14 @@
+Sử dụng Đệ quy giải quyết các bài tập sau:
+
+Bài 1: Input số nguyên n vào từ bàn phím. Output tính tổng S(n)=1+2+3+…+n
+
+Bài 2: Input số nguyên n vào từ bàn phím. Output tính n!
+Bài 3: Tìm và in ra số Fibonacci thứ n trong dãy:
+Biết dãy số Fibonacci là dãy số có quy luật là: số hiện tại bằng tổng hai số liền trước nó ví dụ: 0 , 1, 1, 2, 3, 5, 8, 13, 21…
+
+Bài 4: Đếm số chữ số của một số nguyên n nhập vào từ bàn phím
+Bài 5: Đếm số chữ số chẵn của một số nguyên n nhập vào từ bàn phím
+Bài 6: Tính tổng các chữ số của một số nguyên n nhập vào từ bàn phímn
+Bài 7: Tính an với a và n nhập vào từ bàn phím
+Bài 8: Với n nhập vào từ bàn phím, tính tổng dãy số
+S(n) = 1 + 1/2 + 1/3 + ... + 1/n bằng đệ quy

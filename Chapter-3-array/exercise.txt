@@ -1,0 +1,26 @@
+Assignment 3 Bài tập vận dụng Array
+Due Monday by 9:44am Points 10 Submitting a file upload
+Bài 1: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Sau đó, in chúng ra màn hình, mỗi phần tử in ra trên 1 dòng.
+Bài 2: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Sau đó, in chúng ra màn hình, mỗi phần tử in ra trên 1 dòng theo định dạng
+arr[0] =... 
+
+arr[1]=…
+
+….
+
+arr[n-1]=…
+
+Bài 3: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Sau đó, in chúng ra màn hình theo thứ tự từ cuối lên đầu, tất cả phần tử được in trên 1 dòng theo định dạng arr[n-1] =... , arr[n-2]=…, arr[0]=…
+Bài 4: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Sau đó, in ra các phần tử có vị trí (index) là số chẵn
+Bài 5: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Sau đó, in ra các phần tử có giá trị (elements) là số chẵn
+Bài 6: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Tính tổng tất cả các phần tử ở trong mảng đó
+Bài 7: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Tìm những số nguyên tố xuất hiện trong mảng đó kèm vị trí của nó:
+Ví dụ: arr[4] ={1,5,4,7}
+
+Output: các số nguyên tố xuất hiện là arr[1]=5 , arr[3]=7
+
+Số nguyên tố là số lớn hơn hoặc bằng 2 chỉ có ước là 1 và chính nó
+
+Bài 8: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Tìm những số chính phương xuất hiện trong mảng đó kèm vị trí của nó:
+Bài 9: Nhập vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Tìm những số hoàn hảo xuất hiện trong mảng đó kèm vị trí của nó. (Số hoàn hảo là số có tổng các ước của nó bằng chính nó. Ví dụ 6 có ước là 1+2+3 =6 là số hoàn hảo)
+Bài 10: Nhậcp vào n là số phần tử trong mảng. Sau đó lần lượt nhập các phần tử trong mảng. Tìm những số đối xứng xuất hiện trong mảng đó kèm vị trí của nó. (Số đối xứng là số mà khi viết xuôi hay ngược mình đều thu được số đó ví dụ 1230321, 171,22,353… ).

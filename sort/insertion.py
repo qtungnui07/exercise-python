@@ -6,6 +6,7 @@ def inserion(arr):
         while j>=0 and key<arr[j]:
             arr[j+1]=arr[j]
             j-=1
+            print(*arr)
         arr[j+1]=key
 inserion(arr)
 print(*arr)

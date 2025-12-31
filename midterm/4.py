@@ -9,4 +9,5 @@ elif n==5:
     if a < b:print(a)
     elif b<a:print(b)
     else:print(f"{a, b} bang nhau")
-else:pass
+else:
+    print("nhap lai lua chon")

@@ -1,0 +1,106 @@
+CHUỖI
+Bài 1
+Đếm số lần xuất hiện của một ký tự trong chuỗi
+Nhập một chuỗi và một ký tự từ người dùng. Viết chương trình đếm số lần xuất hiện của ký tự đó trong chuỗi và in ra màn hình.
+Bài 2
+Đảo ngược chuỗi
+Viết chương trình nhập một chuỗi từ bàn phím và in ra chuỗi đảo ngược của nó.
+Bài 3
+Viết chương trình giải quyết các bài toán sau sau:
+1.	Nhập chuỗi ký tự
+2.	Đếm số ký tự chữ số trong chuỗi
+3.	Đếm số ký tự chữ trong chuỗi
+Bài 4
+Viết chương trình giải quyết các bài toán sau sau:
+1.	Nhập chuỗi ký tự vào từ bàn phím
+2.	In chuỗi sau khi viết hoa
+3.	In chuỗi sau khi viết thường
+Ví dụ với chuỗi nhập vào là aB12 cD45ef
+Thì output chương trình ý 2 sẽ là AB12 CD45EF
+Ý 3 sẽ là ab12 cd45ef
+
+Bài 5
+Viết chương trình giải quyết các bài toán sau sau:
+1.	Nhập chuỗi ký tự từ bàn phím
+2.	Đếm số từ trong chuỗi
+3.	In chuỗi sau khi viết thường
+
+Gợi ý: bản chất của đếm số từ là đếm số khoảng cách ‘ ’ ở trong chuỗi, tuy nhiên lưu ý nếu có 2 hoặc 3 dấu cách trở lên thì số dấu ‘ ’ liên tiếp thì chỉ tính 1 lần
+Ví dụ: me   an   com       chua -> thì số từ ở đây thực tế là 4 dù có nhiều hơn 1 dấu ‘_’ ở giữa mỗi từ
+Bài 6
+Viết chương trình nhập vào một chuỗi ký tự.
+• Kiểm tra xem chuỗi đó có phải là chuỗi đối xứng (palindrome) không
+Định nghĩa chuỗi đối xứng: là một chuỗi mà khi loại bỏ hết khoảng trắng, chuyển hết ký tự IN HOA thành ký tự thường thì khi viết xuôi hay viết ngược ta được chính chuỗi đó
+Ví dụ: “LeVEl” -> “level”.
+“mOt to m” -> “mottom”
+Bài 7
+Viết chương trình giải quyết các bài toán sau sau:
+1.	Nhập chuỗi ký tự bất kỳ vào từ bàn phím
+2.	Đếm số lần xuất hiện của mỗi nguyên âm (a,e,i,o,u) không phân biệt hoa thường
+Bài 8
+Viết chương trình giải quyết các bài toán sau sau:
+1.	Nhập chuỗi ký tự bất kỳ vào từ bàn phím sau đó
+2.	In ra sau khi xóa toàn bộ các khoảng trắng
+3.	In ra sau khi chỉ xóa các khoảng trắng dư thừa
+Ví dụ: input là: me   oi me   an com    chua
+thì output của ý 2 là: meoimeancomchua
+Output của ý 3 là: me oi me an com chua
+Bài 9
+Với một chuỗi nhập vào từ bàn phím
+1.	Đếm số ký tự chữ trong chuỗi
+2.	In chuỗi không có ký tự số
+Gợi ý: 
+1)      isalpha( ) là hàm kiểm tra ký tự chữ  / isdigit( ) để kiểm tra ký tự số
+2.	mình sẽ tìm toàn bộ ký tự số trong chuỗi đó và bỏ nó đi
+
+
+
+MẢNG
+Bài 1
+Nhập vào một số nguyên n. Tạo ra mảng số nguyên gồm n phần tử. Sau đó nhập vào các phần tử của mảng rồi thực hiện nhiệm vụ sau: Tính tổng các phần tử là số chia hết cho 5 trong mảng
+Bài 2
+Viết chương trình giải quyết các bài toán sau sau:
+1.	Nhập mảng n số thực (0 < n ≤ 100)
+2.	Tính trung bình cộng các số âm xuất hiện trong mảng và in kết quả
+Bài 3
+Nhập vào một số nguyên n. Tạo ra mảng số nguyên gồm n phần tử. Sau đó nhập vào các phần tử của mảng rồi thực hiện nhiệm vụ sau: Sắp xếp mảng đó theo thứ tự giảm dần sử dụng thuật toán sắp xếp chọn.
+Bài 4
+Nhập vào một số nguyên n. Tạo ra mảng số nguyên gồm n phần tử. Sau đó nhập vào các phần tử của mảng rồi thực hiện nhiệm vụ sau: Sắp xếp mảng đó theo thứ tự giảm dần sử dụng thuật toán sắp xếp nổi bọt.
+Bài 5
+Nhập vào một mảng gồm n số nguyên (n nhập từ bàn phím).
+Sắp xếp mảng theo thứ tự giảm dần.
+Tìm và in ra giá trị lớn thứ ba trong mảng và vị trí của nó.
+Lưu ý: trường hợp có nhiều phần tử cùng lớn thứ ba, thì tìm in ra tất cả các vị trí của nó
+
+
+
+
+
+
+
+ĐỆ QUY
+Bài 1
+Viết hàm đệ quý tính số Fibonacci thứ n
+Bài 2
+Viết hàm đệ quy tính tổng các chữ số của 1 số bất kỳ
+Ví dụ: số 23412
+Thì kết quả trả ra sẽ là 12 ( tổng của 2+3+4+1+2)
+Bài 3
+Viết hàm đệ quy tính tổng các chữ số lẻ của một số nguyên dương n.
+• Hàm: int tongChusole(int n)
+• Trong main(): nhập n từ bàn phím, gọi hàm và in kết quả.
+Ví dụ: n = 123457821 → Tổng chữ số lẻ = 1+3+5+7+1 = 17
+Bài 4
+Viết chương trình giải quyết các bài toán sau sau:
+Viết hàm đệ quy tính tổng các số lẻ từ 1 đến n
+
+
+
+
+
+
+
+
+
+
+

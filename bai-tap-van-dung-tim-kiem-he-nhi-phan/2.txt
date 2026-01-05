@@ -1,0 +1,20 @@
+2 2 3 3 4 3432
+11 12 22 25 34 64 90
+Traceback (most recent call last):
+  File "C:\Users\qtitpc\Desktop\proj\python\exercise-python\bai-tap-van-dung-tim-kiem-he-nhi-phan\2.py", line 39, in <module>
+    binary_search(arr,n)
+    ~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\qtitpc\Desktop\proj\python\exercise-python\bai-tap-van-dung-tim-kiem-he-nhi-phan\2.py", line 32, in binary_search
+    l,r=0,len(a)-1
+              ^
+NameError: name 'a' is not defined
+11 12 22 25 34 64 90
+Traceback (most recent call last):
+  File "C:\Users\qtitpc\Desktop\proj\python\exercise-python\bai-tap-van-dung-tim-kiem-he-nhi-phan\2.py", line 39, in <module>
+    binary_search(arr,n)
+    ~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\qtitpc\Desktop\proj\python\exercise-python\bai-tap-van-dung-tim-kiem-he-nhi-phan\2.py", line 35, in binary_search
+    if arr[m]==x:return m
+               ^
+NameError: name 'x' is not defined
+11 12 22 25 34 64 90

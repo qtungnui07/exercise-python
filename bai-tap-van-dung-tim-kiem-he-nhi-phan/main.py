@@ -36,7 +36,6 @@ def bs_desc(a,x):
 
 print("Bai 1")
 n=int(input("n="))
-# yeu cau nhap tang dan
 a=list(map(int,input("nhap mang tang dan: ").split()))
 x=int(input("x="))
 print(bs_asc(a,x))
@@ -44,7 +43,6 @@ print(bs_asc(a,x))
 print("\nBai 2")
 n=int(input("n="))
 a=list(map(int,input("nhap mang: ").split()))
-# sap xep chon tang dan
 for i in range(n-1):
     k=i
     for j in range(i+1,n):
@@ -57,7 +55,6 @@ print(bs_asc(a,x))
 print("\nBai 3")
 n=int(input("n="))
 a=list(map(int,input("nhap mang: ").split()))
-# noi bot tang dan
 for i in range(n):
     for j in range(0,n-i-1):
         if a[j]>a[j+1]:
@@ -69,7 +66,6 @@ print(bs_asc(a,x))
 print("\nBai 4")
 n=int(input("n="))
 a=list(map(int,input("nhap mang: ").split()))
-# chen giam dan
 for i in range(1,len(a)):
     key=a[i]
     j=i-1
@@ -79,5 +75,4 @@ for i in range(1,len(a)):
     a[j+1]=key
 print("sorted desc:",a)
 x=int(input("x="))
-# dung ham tim kiem giam dan
 print(bs_desc(a,x))

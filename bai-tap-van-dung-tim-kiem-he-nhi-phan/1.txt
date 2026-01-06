@@ -1,0 +1,15 @@
+index:  3
+Traceback (most recent call last):
+  File "C:\Users\qtitpc\Desktop\proj\py\class\exercise-python\bai-tap-van-dung-tim-kiem-he-nhi-phan\1.py", line 22, in <module>
+    n=int(input())
+      ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '            else: right = mid - 1'
+Traceback (most recent call last):
+  File "C:\Users\qtitpc\Desktop\proj\py\class\exercise-python\bai-tap-van-dung-tim-kiem-he-nhi-phan\1.py", line 22, in <module>
+    n=int(input())
+      ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '            else: right = mid - 1'
+not found -1
+index:  not found
+index:  3
+index:  2

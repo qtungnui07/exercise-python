@@ -1,0 +1,42 @@
+CHUỖI
+
+Bài 1
+
+Đếm số lần xuất hiện của một ký tự trong chuỗi Nhập một chuỗi và một ký tự từ người dùng. Viết chương trình đếm số lần xuất hiện của ký tự đó trong chuỗi và in ra màn hình.
+
+Bài 2
+
+Đảo ngược chuỗi Viết chương trình nhập một chuỗi từ bàn phím và in ra chuỗi đảo ngược của nó.
+
+Bài 3
+
+Viết chương trình giải quyết các bài toán sau sau:
+
+1. Nhập chuỗi ký tự
+
+2. Đếm số ký tự chữ số trong chuỗi
+
+3. Đếm số ký tự chữ trong chuỗi
+
+Bài 4
+
+Viết chương trình giải quyết các bài toán sau sau:
+
+1. Nhập chuỗi ký tự vào từ bàn phím
+
+2. In chuỗi sau khi viết hoa
+
+3. In chuỗi sau khi viết thường Ví dụ với chuỗi nhập vào là aB12 cD45ef Thì output chương trình ý 2 sẽ là AB12 CD45EF Ý 3 sẽ là ab12 cd45ef
+
+
+Bài 5
+
+Viết chương trình giải quyết các bài toán sau sau:
+
+1. Nhập chuỗi ký tự từ bàn phím
+
+2. Đếm số từ trong chuỗi
+
+3. In chuỗi sau khi viết thường
+
+Gợi ý: bản chất của đếm số từ là đếm số khoảng cách ‘ ’ ở trong chuỗi, tuy nhiên lưu ý nếu có 2 hoặc 3 dấu cách trở lên thì số dấu ‘ ’ liên tiếp thì chỉ tính 1 lần Ví dụ: me an com chua -> thì số từ ở đây thực tế là 4 dù có nhiều hơn 1 dấu ‘_’ ở giữa mỗi từ

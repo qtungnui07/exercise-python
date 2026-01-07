@@ -9,5 +9,5 @@ def bubblesort(arr):
                 swap=True
         if not swap:
             break
+    print(*arr)
 bubblesort(arr)
-print(*arr)

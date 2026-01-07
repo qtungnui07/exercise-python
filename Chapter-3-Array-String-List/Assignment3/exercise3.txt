@@ -32,9 +32,7 @@ What is the result of executing the following lines:
 
 Question 5: Determine Output When Executing List
 Given the list:
-lst = [20, 1,
--34, 40,
--8, 60, 1, 3]
+lst = [20, 1, -34, 40, -8, 60, 1, 3]
 What is the result of executing the following lines:
 (a) lst
 (b) lst[0:3]

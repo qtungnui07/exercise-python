@@ -1,0 +1,79 @@
+Question 1: List Processing
+Requirements: Write a program that allows:
+• Initializing a list
+• Adding elements to the list
+• Entering a value k and checking how many times it appears in the list
+• Calculating the sum of all prime numbers in the list
+• Sorting the list
+• Deleting the list
+
+Question 2: Random List Processing
+Requirements: Write a program that allows:
+• Randomly initializing a list with n elements
+• Inputting a value k and removing all elements in the list that are equal to k
+• Checking whether the list is symmetric (palindromic)
+
+
+Question 3: Multidimensional List Processing
+Requirements: Write a program that allows: • Initializing and entering a matrix of M x N random elements • Displaying any row based on user input • Displaying any column based on user input • Displaying the maximum value in the matrix
+Question 4: Determine Output When Executing List
+Given the list:
+lst = [3, 0, 1, 5, 2]
+x = 2
+What is the result of executing the following lines:
+(a) lst[0]?
+(b) lst[3]?
+(c) lst[x]?
+(d) lst[-x]?
+(e) lst[x + 1]?
+(f) lst[x] + 1?
+(g) lst[lst[x]]?
+(h) lst[lst[lst[x]]]?
+
+Question 5: Determine Output When Executing List
+Given the list:
+lst = [20, 1,
+-34, 40,
+-8, 60, 1, 3]
+What is the result of executing the following lines:
+(a) lst
+(b) lst[0:3]
+(c) lst[4:8]
+(d) lst[4:33]
+(e) lst[-5:-3]
+(f) lst[-22:3]
+(g) lst[4:]
+(h) lst[:] (i) lst[:4]
+(j) lst[1:5]
+(k)-34 in lst
+(l)-34 not in lst
+(m) len(lst)
+
+Question 6: Array Processing
+Requirements: Write a program that inputs an array of natural numbers. Display the following:
+• Line 1: Odd numbers and the total count of odd numbers
+• Line 2: Even numbers and the total count of even numbers
+• Line 3: Prime numbers
+• Line 4: Non-prime numbers
+• Example:
+M = [3, 6, 7, 8, 11, 17, 2, 90, 2, 5, 4, 5, 8]
+→ 3, 7, 11, 17, 5 (2) → 6 odd numbers
+
+Question 7: Matrix Processing
+Requirements:
+Input two matrices A and B
+Add the two matrices
+Write a function to compute the transpose of a matrix → apply it to both A and B.
+
+
+Question 8: Reverse a list
+Write a function void reverselist (int arr[], int size) that reverses the elements
+of a list.
+• Example: Input: [1, 2, 3, 4, 5] → Output: [5, 4, 3, 2, 1].
+
+Question 9: Find Maximum and Minimum in an Array
+Write a program to find the maximum and minimum values in a onedimensional array.
+
+Question 10: Magic Square Check
+Write a program to check whether a given 3x3 matrix is a magic square. A
+magic square has the same sum for all rows, columns, and diagonals.

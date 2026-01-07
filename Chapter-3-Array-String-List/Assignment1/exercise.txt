@@ -1,0 +1,48 @@
+Question 1: Create a list containing 5 of your favorite fruits. Then, print the first
+fruit and change the third fruit to "Pineapple".
+
+Question 2: Create a list containing 4 subjects you are studying. Print the
+number of subjects and use a loop to print each subject on a new line.
+
+Question 3: Create a list containing 3 friends' names. Add a new friend to the
+end of the list using append(). Then, remove the friend at the second position
+using pop() and print the list after each operation.
+
+Question 4: Create a list containing 5 colors. Use the remove() method to
+remove the color "Green" from the list. If "Green" is not in the list, handle the
+error using try-except. Print the list after the operation.
+
+Question 5: Create a list containing 6 arbitrary integers. Use the sort(),
+reverse(), and count() methods to:
+1.Sort the list in ascending order.
+2.Reverse the list.
+3.Count the number of occurrences of a specific number (e.g., 5).
+Print the list after each operation.
+
+Question 6: Write a Python program that allows the user to input a list of
+integers. The program should sort the list in ascending order using the
+Selection Sort algorithm, and then print the sorted list.
+
+Question 7: Write a Python program that takes a list of floating-point numbers
+as input from the user. Use the Insertion Sort algorithm to sort the list in
+descending order, then print the result.
+
+Question 8: Write a Python program to sort a list of integers in ascending order
+using the Bubble Sort algorithm.
+The program should also count and display the number of swaps performed
+during the sorting process.
+
+(Question 6 – 8: Do not use built-in functions like sort() or sorted() )
+
+
+Question 9: Write a program that takes a list of numbers from the user and
+finds the index of a specific number using linear search.
+
+Question 10: Write a program that takes a list of numbers from the user and
+finds the first number greater than 10, if any.
+
+Question 11:Write a program that takes a list of numbers from the user and
+prints all the odd numbers in the list.
+
+Question 12: Write a program that takes a list of numbers from the user and
+prints all the even numbers , as well as the sum of those even numbers .

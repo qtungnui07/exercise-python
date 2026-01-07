@@ -1,0 +1,50 @@
+Question 1: Palindrome String Check
+• Requirement: Use an infinite while loop to allow input of a string → Output whether the string
+is a palindrome or not. Ask the user whether they want to continue. If yes, input a new string;
+otherwise, exit and display a thank-you message.
+
+Question 2: Optimize String Program
+• Requirement: A string is considered optimized when: it contains no redundant spaces, and
+words are separated by a single space.
+
+Question 3: String Splitting and Processing
+• Requirement: Given a string like "5;7;8;-2;8;11;13;9;10" (can be input from the keyboard):
+• Output each number on a separate line
+• Output how many even numbers there are
+• Output how many negative numbers there are
+• Output how many prime numbers there are
+• Calculate and output the average value
+
+
+Question 4: String Processing with Basic Functions
+• Requirement: Write a program that allows input of a string. The program must output:
+• Number of uppercase letters
+• Number of lowercase letters
+• Number of digits
+• Number of special characters
+• Number of whitespace characters
+• Number of vowels
+• Number of consonants
+
+Question 5: Extract Negative Numbers from String
+• Requirement: Write a function named NegativeNumberInStrings(str). This function takes
+any input string and prints out all the negative integers contained within it.
+Example: If the input string is "abc-5xyz-12k9l--p", the function should output the two
+negative numbers: -5 and -12.
+
+
+Question 6: Optimize Noun Phrase String
+• Requirement: Write a program to optimize a noun phrase string. A string is considered
+optimized when: it contains no redundant spaces, words are separated by a single space, and
+the first letter of each word is capitalized.
+Example:
+Input: " nGUYễn KháNh SƠN "
+Output: "Nguyễn Khánh Sơn"
+
+Question 7: Extract Song Name from Path
+• Requirement: Given a string that represents the path to a music file, for example:
+d:\\music\\muabui.mp3, write two functions:
+• One to extract "muabui.mp3"
+• One to extract "muabui"
+• Note: The path can be any song path, so the function must return the correct result for any
+input.

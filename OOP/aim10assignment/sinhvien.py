@@ -15,7 +15,7 @@ if option == 1:
         que_quan = input("Nhap que quan: ")
         sv = SinhVien(ma_sv, ho_ten, tuoi, que_quan)
         lst.append(sv)
-    with open("thongtinSV.txt", "w") as f:
+    with open("thongtinSV.txt", "a") as f:
         for sv in lst:
             f.write(f"{sv.ma_sv},{sv.ho_ten},{sv.tuoi},{sv.que_quan}\n")
 elif option == 2:

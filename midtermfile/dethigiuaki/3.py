@@ -12,10 +12,10 @@ def read_transactions(filename):
                     'user': parts[1].strip(),
                     'amount': int(parts[2]),
                     'time': parts[3].strip() 
+    except FileNotFoundError:
                 }
                 data.append(transaction)
         return data
-    except FileNotFoundError:
         return []
 
 transactions = read_transactions('data.txt')

@@ -47,4 +47,23 @@
 
 
 #hello world
-print("ABCD")
+# print("ABCD")
+
+# def tong_so_le(a):
+#     if a == 1:
+#         return 1
+#     if a % 2 == 0:
+#         a -= 1
+#     return a + tong_so_le(a - 2)
+
+# print(tong_so_le(2))
+
+def tong_so_le(a):
+    if a <= 0:
+        return 0
+    if a % 2 == 0:
+        a -= 1
+    return a + tong_so_le(a - 2)
+
+print(tong_so_le(2))
+

@@ -1,3 +1,5 @@
+
+
 print("1.")
 def res_sum(n):
     if n==1:

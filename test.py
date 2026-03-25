@@ -1,99 +1,122 @@
-# # # n=int(input())
-# # # def fb(n):
-# # #     if n>=5:
-# # #         return True
-# # #     return False
-# # # if fb(n):
-# # #    print("lon hon 5")
-# # # else: print("nho hon 5") 
+# # # # n=int(input())
+# # # # def fb(n):
+# # # #     if n>=5:
+# # # #         return True
+# # # #     return False
+# # # # if fb(n):
+# # # #    print("lon hon 5")
+# # # # else: print("nho hon 5") 
 
 
-# # def bai_2():
-# #     print("\n--- BÀI 2 ---")
-# #     # 1. Nhập danh sách email (Ví dụ: an@gmail.com, binh@yahoo.com, an@outlook.com) [cite: 12]
-# #     raw_input = input("Nhập danh sách email (cách nhau bởi dấu phẩy): ")
+# # # def bai_2():
+# # #     print("\n--- BÀI 2 ---")
+# # #     # 1. Nhập danh sách email (Ví dụ: an@gmail.com, binh@yahoo.com, an@outlook.com) [cite: 12]
+# # #     raw_input = input("Nhập danh sách email (cách nhau bởi dấu phẩy): ")
     
-# #     # Tách chuỗi thành danh sách
-# #     email_list = raw_input.split(',')
+# # #     # Tách chuỗi thành danh sách
+# # #     email_list = raw_input.split(',')
     
-# #     domain_counts = {}
+# # #     domain_counts = {}
 
-# #     print("\nKết quả thống kê:")
-# #     for email in email_list:
-# #         # 2. Chuẩn hóa dữ liệu: Chữ thường và loại bỏ khoảng trắng thừa [cite: 14, 15, 16]
-# #         clean_email = email.strip().lower()
+# # #     print("\nKết quả thống kê:")
+# # #     for email in email_list:
+# # #         # 2. Chuẩn hóa dữ liệu: Chữ thường và loại bỏ khoảng trắng thừa [cite: 14, 15, 16]
+# # #         clean_email = email.strip().lower()
         
-# #         # Kiểm tra tính hợp lệ cơ bản (phải có @)
-# #         if '@' in clean_email:
-# #             # 3. Trích xuất tên miền (phần sau @) [cite: 17]
-# #             domain = clean_email.split('@')[0]
-# #             # name = clean_email.split('@')[0]
+# # #         # Kiểm tra tính hợp lệ cơ bản (phải có @)
+# # #         if '@' in clean_email:
+# # #             # 3. Trích xuất tên miền (phần sau @) [cite: 17]
+# # #             domain = clean_email.split('@')[0]
+# # #             # name = clean_email.split('@')[0]
             
-# #             # 4. Đếm tần suất dùng Dictionary [cite: 18]
-# #             if domain in domain_counts:
-# #                 domain_counts[domain] += 1
-# #             else:
-# #                 domain_counts[domain] = 1
+# # #             # 4. Đếm tần suất dùng Dictionary [cite: 18]
+# # #             if domain in domain_counts:
+# # #                 domain_counts[domain] += 1
+# # #             else:
+# # #                 domain_counts[domain] = 1
     
-# #     # 5. In kết quả [cite: 19, 20]
-# #     for domain, count in domain_counts.items():
-# #         print(f"Domain: {domain} | Số lượng: {count}")
+# # #     # 5. In kết quả [cite: 19, 20]
+# # #     for domain, count in domain_counts.items():
+# # #         print(f"Domain: {domain} | Số lượng: {count}")
         
-# #     # for name in clean_email:
-# #     #     print(f"{name}")
-# # # Chạy thử hàm với dữ liệu mẫu: an@gmail.com,  BINH@yahoo.com, an@OUTLOOK.com, lan@gmail.com
-# # bai_2()
+# # #     # for name in clean_email:
+# # #     #     print(f"{name}")
+# # # # Chạy thử hàm với dữ liệu mẫu: an@gmail.com,  BINH@yahoo.com, an@OUTLOOK.com, lan@gmail.com
+# # # bai_2()
 
 
 
-<<<<<<< HEAD
-#hello world
-# print("ABCD")
+# #hello world
+# # print("ABCD")
+
+# # def tong_so_le(a):
+# #     if a == 1:
+# #         return 1
+# #     if a % 2 == 0:
+# #         a -= 1
+# #     return a + tong_so_le(a - 2)
+
+# # print(tong_so_le(2))
 
 # def tong_so_le(a):
-#     if a == 1:
-#         return 1
+#     if a <= 0:
+#         return 0
 #     if a % 2 == 0:
 #         a -= 1
 #     return a + tong_so_le(a - 2)
 
 # print(tong_so_le(2))
 
-def tong_so_le(a):
-    if a <= 0:
-        return 0
-    if a % 2 == 0:
-        a -= 1
-    return a + tong_so_le(a - 2)
 
-print(tong_so_le(2))
-
-=======
-# # #hello world
-# # print("ABCD")
 
 
 # n=int(input())
-# a=list(map(int,input().split()))
-# if len(a)==n:
-#     for i in range(n-1):
-#         m=i
-#         for j in range(i+1,n):
-#             if a[j]>a[m]:m=j
-#         a[i],a[m]=a[m],a[i]
-#     d=[]
-#     for x in a:
-#         if x not in d:d.append(x)
-#     if len(d)>=3:
-#         v=d[2]
-#         print(v)
-#         for i in range(n):
-#             if a[i]==v:print(i)
-#     else:
-#         print("k du 3 gia tri khac nhau")
+# for i in range(n): #tu dau den cuoi
+# for i in range(n,1,-1): #tu cuoi len dau
 
 
-s=input()
-x=s[::-1]
-print(x)
->>>>>>> 17cdea4d1a398564df2e52958107ad9e843633a0
+# n = int(input("Nhập số cột n: "))
+# for i in range(n,0,-1):
+#     for j in range(i):
+#         print("*", end=" ")
+#     print()
+
+
+# n = int(input("Nhập số cột n: "))
+# print("Hình 1:")
+# for i in range(n):
+#     for j in range(n):
+#         print(1, end=" ")
+#     print()
+
+
+# print ("Hình 2:")
+# for i in range(n): 
+#     for j in range (1, n+1):
+#         print(j, end="")
+#     print ()
+
+# print("Hình 3:")
+# for i in range (1, n+1): 
+#     for j in range (1, i+1): 
+#         print(j, end=" ")
+#     print()
+
+# print ("Hình 4:")
+# for i in range (n, 0, -1): 
+#     for j in range (1, i+1):
+#         print(j, end="")
+#     print()
+
+n = int(input("Nhập số cột n: "))
+print("Hình 6:")
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        if i == 1 :
+            print(j, end=" ")
+        else :
+            if j == 1 or j == n - i + 1:
+                print(j, end=" ")
+            else :
+                print(" ", end=" ")
+    print()
